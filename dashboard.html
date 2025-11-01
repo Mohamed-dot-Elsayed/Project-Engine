@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css" />
+  </head>
+  <body>
+    <header>
+      <h1>🎓 ClassManager</h1>
+      <nav>
+        <a href="index.html" class="links">Home</a>
+        <a href="dashboard.html" class="links" id="dashboard-btn">Dashboard</a>
+      </nav>
+    </header>
+    <main>
+      <div class="actions">
+        <button id="add-btn">+ Add Student</button>
+      </div>
+      <table id="data">
+        <thead>
+          <tr>
+            <th>id</th>
+            <th>name</th>
+            <th>age</th>
+            <th>garde</th>
+            <th>actions</th>
+          </tr>
+        </thead>
+        <tbody id="tbody-data">
+            <tr><td colspan="5" style="text-align:center;">Loading...</td></tr>
+        </tbody>
+      </table>
+    </main>
+     <!-- modal -->
+    <div class="modal" id="modal">
+      <div class="modal-content">
+        <h2 id="modal-title">Add Student</h2>
+        <input type="text" id="name" placeholder="Name" required />
+        <input type="number" id="age" placeholder="Age" required />
+        <input type="text" id="grade" placeholder="Grade" required />
+        <div class="modal-buttons">
+          <button id="save-btn">Save</button>
+          <button id="cancel-btn" class="delete">cancel</button>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

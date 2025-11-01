@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+body {
+  background: #0f0f0f;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+header {
+  background-color: rgba(20, 20, 20);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 45px;
+  position: sticky;
+  top: 0;
+  opacity: 0.9;
+}
+header > h1 {
+  color: #00bcd4;
+  font-size: 24px;
+  cursor: none;
+}
+nav > a {
+  text-decoration: none;
+  color: #ccc;
+  margin: 0 15px;
+  transition: 0.5s;
+}
+nav a:hover {
+  color: #00bcd4;
+}
+#dashboard-btn {
+  background-color: #00bcd4;
+  padding: 15px;
+  color: #fff;
+  border-radius: 50px;
+}
+#dashboard-btn:hover {
+  background-color: #008c9e;
+  color: #0f0f0f;
+}
+
+#hero {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+
+#hero h2 {
+  font-size: 50px;
+  color: #fff;
+  margin-bottom: 30px;
+}
+
+#hero p {
+  color: #aaa;
+  font-size: 20px;
+  max-width: 600px;
+  margin-bottom: 30px;
+}
+#hero a {
+  text-decoration: none;
+  color: #000;
+  background-color: #00bcd4;
+  padding: 15px 30px;
+  border-radius: 50px;
+  font-size: 16px;
+  transition: 0.5s;
+}
+#hero a:hover {
+  background-color: #008c9e;
+}
+#features {
+  text-align: center;
+  padding: 60px 20px;
+  background-color: #000;
+}
+
+#features h2 {
+  font-size: 30px;
+  color: #00bcd4;
+  margin-bottom: 10px;
+}
+
+#features p {
+  font-size: 15px;
+  color: #aaa;
+  margin-bottom: 40px;
+}
+
+.features-container {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.feature-card {
+  background-color: #1c1c1c;
+  border: 1px solid #333;
+  border-radius: 10px;
+  padding: 25px;
+  width: 280px;
+  text-align: center;
+  transition: 0.3s;
+}
+
+.feature-card img {
+  width: 60px;
+  height: 60px;
+  margin-bottom: 15px;
+}
+
+.feature-card h3 {
+  color: #00bcd4;
+  margin: 10px 0;
+}
+
+.feature-card p {
+  color: #bbb;
+  font-size: 14px;
+}
+
+.feature-card:hover {
+  transform: translateY(-8px);
+  background-color: #242424;
+}
+#cta {
+  background-color: #008c9e;
+  text-align: center;
+  padding: 50px 30px;
+}
+#cta h2 {
+  color: #000;
+  margin-bottom: 30px;
+}
+#cta p {
+  color: #000;
+  margin-bottom: 50px;
+}
+#cta a {
+  text-decoration: none;
+  color: #008c9e;
+  background-color: black;
+  padding: 20px 40px;
+  border-radius: 50px;
+  font-size:20px;
+  transition: 0.5s;
+}
+#cta a:hover {
+  background-color: #fff;
+  color: #000;
+}
+footer {
+  text-align: center;
+  padding: 40px 0;
+  background-color: #121212;
+  font-size: 14px;
+  color: #777;
+}

@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Poppins, sans-serif;
+}
+body {
+  background: #0f0f0f;
+  color: #f1f1f1;
+  line-height: 1.6;
+}
+header {
+  background-color: rgba(20, 20, 20);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 45px;
+  position: sticky;
+  top: 0;
+  opacity: 0.9;
+}
+header > h1 {
+  color: #00bcd4;
+  font-size: 24px;
+  cursor: none;
+}
+nav > a {
+  text-decoration: none;
+  color: #ccc;
+  margin: 0 15px;
+  transition: 0.5s;
+}
+nav a:hover {
+  color: #00bcd4;
+}
+#dashboard-btn {
+  background-color: #00bcd4;
+  padding: 15px;
+  color: #fff;
+  border-radius: 50px;
+}
+#dashboard-btn:hover {
+  background-color: #008c9e;
+  color: #0f0f0f;
+}
+#data {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #1e1e1e;
+    border-radius: 15px;
+    border-collapse: collapse;
+    overflow: hidden;
+}
+
+#data td {
+    text-align: center;
+    padding: 12px 15px;
+    border: 1px solid #444;
+}
+
+#data th {
+    background-color: #333;
+    color: #00bcd4;
+    text-transform: uppercase;
+    padding: 12px 15px;
+}
+
+#data tr:nth-child(even) {
+    background-color: #2a2a2a;
+}
+
+#data tr:hover {
+    background-color: #383838;
+    cursor: pointer;
+}
+button {
+    background-color: #00bcd4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin: 0 3px;
+}
+#add-btn {
+    margin: 10px 0;
+    padding: 15px 30px;
+}
+.actions {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button:hover {
+    background-color: #0097a1;
+}
+.delete {
+    background-color: #d32f2f;
+}
+.delete:hover {
+    background-color: #c90e0e;
+}
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0,0, 0.7);
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: #1e1e1e;
+    padding: 25px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+}
+
+.modal-content input {
+    width: 90%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #f5f5f5;
+}
+
+.modal-buttons {
+    margin-top: 10px;
+}
