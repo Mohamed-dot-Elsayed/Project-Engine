@@ -1,4 +1,4 @@
-const API_URL = "https://68d69003c2a1754b426b2c69.mockapi.io/api/v1/students";
+const API_URL = "https://6921a4d9512fb4140be0e215.mockapi.io/Students";
 const tbody = document.getElementById("tbody-data");
 
 const addBtn = document.getElementById("add-btn");
@@ -129,6 +129,7 @@ saveBtn.addEventListener("click", async () => {
 });
 
 fetchStudents();
+
 
 
 
